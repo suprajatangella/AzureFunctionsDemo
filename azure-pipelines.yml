@@ -32,7 +32,9 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: $(vmImageName)
+        name: Default
+        demands:
+          agent.name -equals mysystem
 
     steps:
     - task: DotNetCoreCLI@2
@@ -65,7 +67,9 @@ stages:
     displayName: Deploy
     environment: 'development'
     pool:
-      vmImage: $(vmImageName)
+        name: Default
+        demands:
+          agent.name -equals mysystem
 
     strategy:
       runOnce:
