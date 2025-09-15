@@ -1,7 +1,6 @@
 # Azure Function App deployed in Azure through CI/CD Pipeline
 
-<img width="1032" height="552" alt="image" src="https://github.com/user-attachments/assets/4ee6b195-848d-46ff-920e-ccee034836ab" />
-
+<img width="1032" height="552" alt="image" src="https://github.com/user-attachments/assets/fcbc1208-4eaa-444c-843b-df58194be9bd" />
 
 App Insights
 
