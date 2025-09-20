@@ -16,7 +16,7 @@ public class TimerTrigger
     [Function("CallScheduledTaskEveryMinute")]
     public void CallScheduledTaskEveryMinute([TimerTrigger("0 */1 * * * *")] TimerInfo myTimer)
     {
-        // Log the current time and the next scheduled execution time
+        // my first change
         _logger.LogInformation("C# Timer trigger function executed at: {executionTime}", DateTime.Now);
         
         if (myTimer.ScheduleStatus is not null)
